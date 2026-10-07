@@ -1,0 +1,34 @@
+# ============================================
+# DocuLens AI — Dependencies
+# ============================================
+
+# UI
+streamlit==1.41.1
+
+# AI / LLM
+openai==1.55.3
+
+# PDF processing
+pdfplumber==0.11.4
+pdf2image==1.17.0
+Pillow==11.0.0
+
+# Embeddings and retrieval
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# OCR (optional — works without tesseract installed)
+pytesseract==0.3.13
+
+# Data validation
+pydantic==2.10.3
+
+# Environment
+python-dotenv==1.0.1
+
+# Numerical
+numpy>=1.24.0
+
+# Testing
+pytest==8.3.4
+pytest-mock==3.14.0
